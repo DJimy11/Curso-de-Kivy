@@ -16,9 +16,9 @@ class tarefas(BoxLayout):
 
 
 class Tarefa(BoxLayout):
-    def __int__(self, text='', **kwargs):
+    def __init__(self, texto='', **kwargs):
         super().__init__(**kwargs)
-        self.ids.label.text = text
+        self.ids.label.text = texto
 
 
 class Teste(App):
